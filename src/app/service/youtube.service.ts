@@ -6,7 +6,7 @@ import { Observable, map } from 'rxjs';
 })
 export class YoutubeService {
 
-  apiKey: string = 'AIzaSyDHeTS5BpFSR_MVE8tRF3-OQDR1qmcu_0Y'
+  apiKey: string = 'your_key'
   constructor(public http:HttpClient) { }
 
   getVideosForChanel(channel:any, maxResults:any): Observable<Object> {
